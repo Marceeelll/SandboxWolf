@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SandboxWolf_Example' do
+  pod 'SandboxWolf', :path => '../'
+
+  target 'SandboxWolf_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
