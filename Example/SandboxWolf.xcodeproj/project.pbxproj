@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FC4006324795162003C15FD /* ExampleDataCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4006224795162003C15FD /* ExampleDataCreator.swift */; };
 		5C5F84C9725DB4C07ACA60C3 /* Pods_SandboxWolf_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390D30F0EC20283820A69FA1 /* Pods_SandboxWolf_Example.framework */; };
 		606E3B6C451B895FD63CF5ED /* Pods_SandboxWolf_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE6A5F7DC5C57D5C16DE1C2 /* Pods_SandboxWolf_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FC4006224795162003C15FD /* ExampleDataCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleDataCreator.swift; sourceTree = "<group>"; };
 		232EDCB42A08A8041EC0AA31 /* Pods-SandboxWolf_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SandboxWolf_Tests.release.xcconfig"; path = "Target Support Files/Pods-SandboxWolf_Tests/Pods-SandboxWolf_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		28CEAE00C1668E1275D1E042 /* SandboxWolf.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SandboxWolf.podspec; path = ../SandboxWolf.podspec; sourceTree = "<group>"; };
 		390D30F0EC20283820A69FA1 /* Pods_SandboxWolf_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SandboxWolf_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,11 +96,12 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				0FC4006224795162003C15FD /* ExampleDataCreator.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
 			);
 			name = "Example for SandboxWolf";
 			path = SandboxWolf;
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				0FC4006324795162003C15FD /* ExampleDataCreator.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
