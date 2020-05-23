@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		09706792BDD8D674A7C74364A248B6BF /* Pods-SandboxWolf_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F21CFF48B7BCD4428A73ED0B2ECC39B5 /* Pods-SandboxWolf_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E325EFE4CCCE659B5B41F12F33150FC /* Pods-SandboxWolf_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D57923DC0394E4247BC818FEE5C074 /* Pods-SandboxWolf_Tests-dummy.m */; };
-		0F199B1F2479506A0077D9B4 /* FileSystemElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F199B112479506A0077D9B4 /* FileSystemElement.swift */; };
-		0F199B202479506A0077D9B4 /* FileSystemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F199B122479506A0077D9B4 /* FileSystemManager.swift */; };
-		0F199B212479506A0077D9B4 /* SandboxManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F199B142479506A0077D9B4 /* SandboxManagerViewController.swift */; };
-		0F199B222479506A0077D9B4 /* FileSystemRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F199B152479506A0077D9B4 /* FileSystemRootViewModel.swift */; };
-		0F199B232479506A0077D9B4 /* FileSystemRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F199B162479506A0077D9B4 /* FileSystemRootViewController.swift */; };
-		0F199B242479506A0077D9B4 /* FileSystemDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F199B182479506A0077D9B4 /* FileSystemDirectoryView.swift */; };
-		0F199B252479506A0077D9B4 /* FileSystemDirectoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F199B192479506A0077D9B4 /* FileSystemDirectoryViewModel.swift */; };
-		0F199B262479506A0077D9B4 /* FileSystemDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F199B1A2479506A0077D9B4 /* FileSystemDirectoryViewController.swift */; };
-		0F199B272479506A0077D9B4 /* ErrorPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F199B1C2479506A0077D9B4 /* ErrorPresentable.swift */; };
-		0F199B282479506A0077D9B4 /* FileSystemElementPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F199B1D2479506A0077D9B4 /* FileSystemElementPresentable.swift */; };
-		0F199B292479506A0077D9B4 /* FileSystemElementClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F199B1E2479506A0077D9B4 /* FileSystemElementClipboard.swift */; };
+		0FC4006824795342003C15FD /* FileSystemElementClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4006724795342003C15FD /* FileSystemElementClipboard.swift */; };
+		0FC4006E24795352003C15FD /* FileSystemRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4006B24795352003C15FD /* FileSystemRootViewController.swift */; };
+		0FC4006F24795352003C15FD /* SandboxManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4006C24795352003C15FD /* SandboxManagerViewController.swift */; };
+		0FC4007024795352003C15FD /* FileSystemRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4006D24795352003C15FD /* FileSystemRootViewModel.swift */; };
+		0FC4007324795358003C15FD /* FileSystemElementPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4007124795358003C15FD /* FileSystemElementPresentable.swift */; };
+		0FC4007424795358003C15FD /* ErrorPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4007224795358003C15FD /* ErrorPresentable.swift */; };
+		0FC400772479535F003C15FD /* FileSystemElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC400752479535F003C15FD /* FileSystemElement.swift */; };
+		0FC400782479535F003C15FD /* FileSystemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC400762479535F003C15FD /* FileSystemManager.swift */; };
+		0FC4007C24795365003C15FD /* FileSystemDirectoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4007924795365003C15FD /* FileSystemDirectoryViewModel.swift */; };
+		0FC4007D24795365003C15FD /* FileSystemDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4007A24795365003C15FD /* FileSystemDirectoryView.swift */; };
+		0FC4007E24795365003C15FD /* FileSystemDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4007B24795365003C15FD /* FileSystemDirectoryViewController.swift */; };
 		2BFFF1E3D6EA40F9EE4ECF34A2EEFA8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		561792F1996D5391C8A5B6F981407ACF /* Pods-SandboxWolf_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F574C9B06593B3BE3257F98C9E373139 /* Pods-SandboxWolf_Example-dummy.m */; };
 		5D10E381008E68239EC85C6B1FB2EF51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -47,17 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F199B112479506A0077D9B4 /* FileSystemElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemElement.swift; sourceTree = "<group>"; };
-		0F199B122479506A0077D9B4 /* FileSystemManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemManager.swift; sourceTree = "<group>"; };
-		0F199B142479506A0077D9B4 /* SandboxManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandboxManagerViewController.swift; sourceTree = "<group>"; };
-		0F199B152479506A0077D9B4 /* FileSystemRootViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemRootViewModel.swift; sourceTree = "<group>"; };
-		0F199B162479506A0077D9B4 /* FileSystemRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemRootViewController.swift; sourceTree = "<group>"; };
-		0F199B182479506A0077D9B4 /* FileSystemDirectoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemDirectoryView.swift; sourceTree = "<group>"; };
-		0F199B192479506A0077D9B4 /* FileSystemDirectoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemDirectoryViewModel.swift; sourceTree = "<group>"; };
-		0F199B1A2479506A0077D9B4 /* FileSystemDirectoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemDirectoryViewController.swift; sourceTree = "<group>"; };
-		0F199B1C2479506A0077D9B4 /* ErrorPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorPresentable.swift; sourceTree = "<group>"; };
-		0F199B1D2479506A0077D9B4 /* FileSystemElementPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemElementPresentable.swift; sourceTree = "<group>"; };
-		0F199B1E2479506A0077D9B4 /* FileSystemElementClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemElementClipboard.swift; sourceTree = "<group>"; };
+		0FC4006724795342003C15FD /* FileSystemElementClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemElementClipboard.swift; path = ../SandboxWolf/Classes/FileSystemElementClipboard.swift; sourceTree = "<group>"; };
+		0FC4006B24795352003C15FD /* FileSystemRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemRootViewController.swift; path = "../../SandboxWolf/Classes/Sandbox Overview/FileSystemRootViewController.swift"; sourceTree = "<group>"; };
+		0FC4006C24795352003C15FD /* SandboxManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SandboxManagerViewController.swift; path = "../../SandboxWolf/Classes/Sandbox Overview/SandboxManagerViewController.swift"; sourceTree = "<group>"; };
+		0FC4006D24795352003C15FD /* FileSystemRootViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemRootViewModel.swift; path = "../../SandboxWolf/Classes/Sandbox Overview/FileSystemRootViewModel.swift"; sourceTree = "<group>"; };
+		0FC4007124795358003C15FD /* FileSystemElementPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemElementPresentable.swift; path = ../../SandboxWolf/Classes/Presentables/FileSystemElementPresentable.swift; sourceTree = "<group>"; };
+		0FC4007224795358003C15FD /* ErrorPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorPresentable.swift; path = ../../SandboxWolf/Classes/Presentables/ErrorPresentable.swift; sourceTree = "<group>"; };
+		0FC400752479535F003C15FD /* FileSystemElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemElement.swift; path = "../../SandboxWolf/Classes/File System Manager/FileSystemElement.swift"; sourceTree = "<group>"; };
+		0FC400762479535F003C15FD /* FileSystemManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemManager.swift; path = "../../SandboxWolf/Classes/File System Manager/FileSystemManager.swift"; sourceTree = "<group>"; };
+		0FC4007924795365003C15FD /* FileSystemDirectoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemDirectoryViewModel.swift; path = "../../SandboxWolf/Classes/Directory Overview/FileSystemDirectoryViewModel.swift"; sourceTree = "<group>"; };
+		0FC4007A24795365003C15FD /* FileSystemDirectoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemDirectoryView.swift; path = "../../SandboxWolf/Classes/Directory Overview/FileSystemDirectoryView.swift"; sourceTree = "<group>"; };
+		0FC4007B24795365003C15FD /* FileSystemDirectoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemDirectoryViewController.swift; path = "../../SandboxWolf/Classes/Directory Overview/FileSystemDirectoryViewController.swift"; sourceTree = "<group>"; };
 		1D0EE98F3637F471D36C2793F61D781A /* Pods-SandboxWolf_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SandboxWolf_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		31BCA9EE375AA2C4C0CAF31CFE346C34 /* Pods_SandboxWolf_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SandboxWolf_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -120,54 +120,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F199B0F2479506A0077D9B4 /* Classes */ = {
+		0FC4006424795327003C15FD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0F199B102479506A0077D9B4 /* File System Manager */,
-				0F199B132479506A0077D9B4 /* Sandbox Overview */,
-				0F199B172479506A0077D9B4 /* Directory Overview */,
-				0F199B1B2479506A0077D9B4 /* Presentables */,
-				0F199B1E2479506A0077D9B4 /* FileSystemElementClipboard.swift */,
+				0FC4006A2479534B003C15FD /* Sandbox Overview */,
+				0FC4006924795346003C15FD /* Presentables */,
+				0FC4006724795342003C15FD /* FileSystemElementClipboard.swift */,
+				0FC4006624795339003C15FD /* File System Manager */,
+				0FC4006524795333003C15FD /* Directory Overview */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		0F199B102479506A0077D9B4 /* File System Manager */ = {
+		0FC4006524795333003C15FD /* Directory Overview */ = {
 			isa = PBXGroup;
 			children = (
-				0F199B112479506A0077D9B4 /* FileSystemElement.swift */,
-				0F199B122479506A0077D9B4 /* FileSystemManager.swift */,
-			);
-			path = "File System Manager";
-			sourceTree = "<group>";
-		};
-		0F199B132479506A0077D9B4 /* Sandbox Overview */ = {
-			isa = PBXGroup;
-			children = (
-				0F199B142479506A0077D9B4 /* SandboxManagerViewController.swift */,
-				0F199B152479506A0077D9B4 /* FileSystemRootViewModel.swift */,
-				0F199B162479506A0077D9B4 /* FileSystemRootViewController.swift */,
-			);
-			path = "Sandbox Overview";
-			sourceTree = "<group>";
-		};
-		0F199B172479506A0077D9B4 /* Directory Overview */ = {
-			isa = PBXGroup;
-			children = (
-				0F199B182479506A0077D9B4 /* FileSystemDirectoryView.swift */,
-				0F199B192479506A0077D9B4 /* FileSystemDirectoryViewModel.swift */,
-				0F199B1A2479506A0077D9B4 /* FileSystemDirectoryViewController.swift */,
+				0FC4007A24795365003C15FD /* FileSystemDirectoryView.swift */,
+				0FC4007B24795365003C15FD /* FileSystemDirectoryViewController.swift */,
+				0FC4007924795365003C15FD /* FileSystemDirectoryViewModel.swift */,
 			);
 			path = "Directory Overview";
 			sourceTree = "<group>";
 		};
-		0F199B1B2479506A0077D9B4 /* Presentables */ = {
+		0FC4006624795339003C15FD /* File System Manager */ = {
 			isa = PBXGroup;
 			children = (
-				0F199B1C2479506A0077D9B4 /* ErrorPresentable.swift */,
-				0F199B1D2479506A0077D9B4 /* FileSystemElementPresentable.swift */,
+				0FC400752479535F003C15FD /* FileSystemElement.swift */,
+				0FC400762479535F003C15FD /* FileSystemManager.swift */,
+			);
+			path = "File System Manager";
+			sourceTree = "<group>";
+		};
+		0FC4006924795346003C15FD /* Presentables */ = {
+			isa = PBXGroup;
+			children = (
+				0FC4007224795358003C15FD /* ErrorPresentable.swift */,
+				0FC4007124795358003C15FD /* FileSystemElementPresentable.swift */,
 			);
 			path = Presentables;
+			sourceTree = "<group>";
+		};
+		0FC4006A2479534B003C15FD /* Sandbox Overview */ = {
+			isa = PBXGroup;
+			children = (
+				0FC4006B24795352003C15FD /* FileSystemRootViewController.swift */,
+				0FC4006D24795352003C15FD /* FileSystemRootViewModel.swift */,
+				0FC4006C24795352003C15FD /* SandboxManagerViewController.swift */,
+			);
+			path = "Sandbox Overview";
 			sourceTree = "<group>";
 		};
 		18A8C07306AD0E4F9833D24D10247880 /* Products */ = {
@@ -206,7 +206,7 @@
 		9DB25CD506BBEA4C10B5CB424FE68AD4 /* SandboxWolf */ = {
 			isa = PBXGroup;
 			children = (
-				0F199B0F2479506A0077D9B4 /* Classes */,
+				0FC4006424795327003C15FD /* Classes */,
 				BE445DF2C9587FF7A4D097AEFC541CEC /* Pod */,
 				41134B267BE20C22C099A7FEF89F7C19 /* Support Files */,
 			);
@@ -387,6 +387,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					D75B2EE967349A5D959F40B6A6773E98 = {
+						LastSwiftMigration = 1140;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -445,18 +450,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC4006824795342003C15FD /* FileSystemElementClipboard.swift in Sources */,
+				0FC4007C24795365003C15FD /* FileSystemDirectoryViewModel.swift in Sources */,
+				0FC400772479535F003C15FD /* FileSystemElement.swift in Sources */,
+				0FC400782479535F003C15FD /* FileSystemManager.swift in Sources */,
+				0FC4007024795352003C15FD /* FileSystemRootViewModel.swift in Sources */,
 				5F7BB9D33D8224F26932FB6DD1B3B31F /* SandboxWolf-dummy.m in Sources */,
-				0F199B222479506A0077D9B4 /* FileSystemRootViewModel.swift in Sources */,
-				0F199B1F2479506A0077D9B4 /* FileSystemElement.swift in Sources */,
-				0F199B242479506A0077D9B4 /* FileSystemDirectoryView.swift in Sources */,
-				0F199B292479506A0077D9B4 /* FileSystemElementClipboard.swift in Sources */,
-				0F199B212479506A0077D9B4 /* SandboxManagerViewController.swift in Sources */,
-				0F199B202479506A0077D9B4 /* FileSystemManager.swift in Sources */,
-				0F199B232479506A0077D9B4 /* FileSystemRootViewController.swift in Sources */,
-				0F199B262479506A0077D9B4 /* FileSystemDirectoryViewController.swift in Sources */,
-				0F199B272479506A0077D9B4 /* ErrorPresentable.swift in Sources */,
-				0F199B252479506A0077D9B4 /* FileSystemDirectoryViewModel.swift in Sources */,
-				0F199B282479506A0077D9B4 /* FileSystemElementPresentable.swift in Sources */,
+				0FC4006F24795352003C15FD /* SandboxManagerViewController.swift in Sources */,
+				0FC4007E24795365003C15FD /* FileSystemDirectoryViewController.swift in Sources */,
+				0FC4006E24795352003C15FD /* FileSystemRootViewController.swift in Sources */,
+				0FC4007324795358003C15FD /* FileSystemElementPresentable.swift in Sources */,
+				0FC4007424795358003C15FD /* ErrorPresentable.swift in Sources */,
+				0FC4007D24795365003C15FD /* FileSystemDirectoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4AA8A279ABD93E41C3C54248CF411DB /* SandboxWolf.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -611,6 +617,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -622,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A17D31B1DDAC7C82F3385756DA5721A /* SandboxWolf.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
