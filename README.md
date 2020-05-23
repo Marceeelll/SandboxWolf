@@ -37,7 +37,7 @@ When downloading the container via the "Devices and Simulators" menu in Xcode it
 
 ## Example
 
-[Example Video on Vimeo](https://vimeo.com/user108331732/review/421907816/0165ca9d89)
+[Example Video on Vimeo](https://vimeo.com/421907816)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
