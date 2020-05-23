@@ -1,3 +1,5 @@
+![BarcodeScanner](https://github.com/Marceeelll/SandboxWolf/blob/master/Media/banner.png)
+
 # SandboxWolf
 
 [![CI Status](https://img.shields.io/travis/Marcel/SandboxWolf.svg?style=flat)](https://travis-ci.org/Marcel/SandboxWolf)
@@ -22,7 +24,7 @@ When downloading the container via the "Devices and Simulators" menu in Xcode it
 
 ## Table of Contents
 
-<img src="https://github.com/hyperoslo/BarcodeScanner/blob/master/Art/BarcodeScannerIcon.png" alt="BarcodeScanner Icon" width="190" height="190" align="right" />
+<img src="https://github.com/Marceeelll/SandboxWolf/blob/master/Media/sandboxwolf-icon.png" alt="BarcodeScanner Icon" width="190" height="190" align="right" />
 
 * [Description](#description)
 * [Problem To Solve](#ProblemToSolve)
