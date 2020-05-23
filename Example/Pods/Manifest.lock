@@ -1,0 +1,16 @@
+PODS:
+  - SandboxWolf (0.1.0)
+
+DEPENDENCIES:
+  - SandboxWolf (from `../`)
+
+EXTERNAL SOURCES:
+  SandboxWolf:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SandboxWolf: 2084e24b43ee9f78cd2bd3dcd5aeaf458e7ae67c
+
+PODFILE CHECKSUM: ff44686d935cffea9885e65d00ee64d91d1ff3ca
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+framework module SandboxWolf {
+  umbrella header "SandboxWolf-umbrella.h"
+
+  export *
+  module * { export * }
+}
